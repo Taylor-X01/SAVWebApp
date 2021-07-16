@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X2fUB0PpKiZFWz6pR7kOH+gll6GW/UCFvn5vScRe/Zl3nvCE35p2i5douK5u3C+D22AGBy43oM3jzNR1q7K/BQ==",
+  "dgSpecHash": "CfW7wdHG/auUj4mHOKRVobvITtfxFyET+BFdo28usTvJpeDCsUEvzgfryHtJINqH24T7kEpDpO6xq1Y8/AzZCQ==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\SAVapp\\SAVapp\\SAVapp.csproj",
+  "projectFilePath": "C:\\Dev\\SAV\\SAVapp\\SAVapp\\SAVapp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

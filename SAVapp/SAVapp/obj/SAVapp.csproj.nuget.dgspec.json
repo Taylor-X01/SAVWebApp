@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\SAVapp\\SAVapp\\SAVapp.csproj": {}
+    "C:\\Dev\\SAV\\SAVapp\\SAVapp\\SAVapp.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\SAVapp\\SAVapp\\SAVapp.csproj": {
+    "C:\\Dev\\SAV\\SAVapp\\SAVapp\\SAVapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\SAVapp\\SAVapp\\SAVapp.csproj",
+        "projectUniqueName": "C:\\Dev\\SAV\\SAVapp\\SAVapp\\SAVapp.csproj",
         "projectName": "SAVapp",
-        "projectPath": "C:\\Dev\\SAVapp\\SAVapp\\SAVapp.csproj",
+        "projectPath": "C:\\Dev\\SAV\\SAVapp\\SAVapp\\SAVapp.csproj",
         "packagesPath": "C:\\Users\\grini\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\SAVapp\\SAVapp\\obj\\",
+        "outputPath": "C:\\Dev\\SAV\\SAVapp\\SAVapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grini\\AppData\\Roaming\\NuGet\\NuGet.Config",

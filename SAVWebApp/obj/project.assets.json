@@ -7498,11 +7498,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\SAVWebApp\\SAVWebApp.csproj",
+      "projectUniqueName": "C:\\Dev\\SAV\\SAVWebApp\\SAVWebApp.csproj",
       "projectName": "SAVWebApp",
-      "projectPath": "C:\\Dev\\SAVWebApp\\SAVWebApp.csproj",
+      "projectPath": "C:\\Dev\\SAV\\SAVWebApp\\SAVWebApp.csproj",
       "packagesPath": "C:\\Users\\grini\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\SAVWebApp\\obj\\",
+      "outputPath": "C:\\Dev\\SAV\\SAVWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\grini\\AppData\\Roaming\\NuGet\\NuGet.Config",
