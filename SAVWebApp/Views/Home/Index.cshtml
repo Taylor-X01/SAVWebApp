@@ -2,7 +2,42 @@
     ViewData["Title"] = "Home Page";
 }
 
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome to the Customer Service Application</h1>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h1 class="display-5"> Hi @User.Identity.Name ! </h1>
+    }
+
+    @if (!User.Identity.IsAuthenticated)
+    {
+        
+       <h5 class="line-hight">
+          Login to Your Client Account from Here :
+          <a class="" asp-area="Identity" asp-page="/Account/Manage/Index">Login</a>
+       </h5>
+
+    }
 </div>
+
+<ul class="container">
+    
+    @if (User.Identity.IsAuthenticated)
+    {
+        <li class="row col-10">
+            <h5 class="flex-xl-shrink-0">
+                You Can Submit A Request to The Customer Service Here :
+                <a class="" asp-area="" asp-controller="Requests" asp-action="Create">Submit Request</a>
+            </h5>
+        </li>
+
+        <li class="row col-10">
+            <h5 class="flex-xl-shrink-0">
+                You Can View Your Requests Here :
+                <a class="" asp-area="" asp-controller="Requests" asp-action="Index">Requests</a>
+            </h5>
+        </li>
+    }
+
+</ul>

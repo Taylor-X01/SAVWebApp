@@ -16,7 +16,7 @@ namespace SAVWebApp.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.7")
+                .HasAnnotation("ProductVersion", "5.0.8")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -238,12 +238,39 @@ namespace SAVWebApp.Data.Migrations
                     b.Property<string>("fax")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("passwd")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("phoneNum")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
 
                     b.ToTable("Client");
+                });
+
+            modelBuilder.Entity("SAVWebApp.Models.Request", b =>
+                {
+                    b.Property<int>("RequestId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ClientID")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NSerie")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Subject")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RequestId");
+
+                    b.ToTable("Request");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -14,5 +14,6 @@ namespace SAVWebApp.Data
         {
         }
         public DbSet<SAVWebApp.Models.Client> Client { get; set; }
+        public DbSet<SAVWebApp.Models.Request> Request { get; set; }
     }
 }
