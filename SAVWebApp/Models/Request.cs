@@ -9,6 +9,7 @@ namespace SAVWebApp.Models
     {
         public int RequestId { get; set; }
         public string ClientID { get; set; }
+        public string ClientName { get; set; }
         public DateTime RDate { get; }
         public string Subject { get; set; }
         public string Description { get; set; }
